@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=S, initial-scale=1.0">
-  <title>Document</title>
+  <title>html-form</title>
 </head>
 <body>
   <h1>hello!</h1>
@@ -48,11 +48,30 @@
         <label for="Javascript">Javascript</label>
       </div>
 
+      <div>
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
 
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="today" name="date">
+      </div>
+
+      <div>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Sign up for newsletter</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions">
+        <label for="terms-and-conditions">Agree to <a href="terms.txt">terms and conditions</a></label>
+      </div>
 
       <div>
         <button type="submit">Submit</button>
       </div>
+
     </fieldset>
   </form>
 </body>
